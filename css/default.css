@@ -15,21 +15,3 @@ main {
 #canvas {
     width: 100vmin;
 }
-
-
-
-
-
-.path {
-    fill: none;
-    stroke: black;
-    stroke-width: 1;
-}
-
-.point {
-    fill: none;
-    stroke: black;
-    stroke-width: 10;
-}
-
-

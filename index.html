@@ -4,24 +4,24 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <title>SVG JS</title>
-
         <link rel="stylesheet" href="css/default.css">
 
+        <script src="js/libraries/FileSaver.js"></script>
+        <script src="js/libraries/dom-to-image.js"></script>
+        <script src="js/libraries/jszip.js"></script>
+
+        <script src="js/setup.js"></script>
         <script src="js/lib.js"></script>
+        <script src="js/sketch.js"></script>
+
     </head>
 
     <body>
-
-        <main>
-            <svg viewBox="0 0 1000 1000"  id="canvas">
-
+        <main id="main">
+            <svg viewBox="0 0 1000 1000"  id="canvas" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             </svg>
+
         </main>
-
-
-        <script src="js/lib.js"></script>
-        <script src="js/script.js"></script>
 
     </body>
